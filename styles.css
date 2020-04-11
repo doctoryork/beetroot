@@ -1,0 +1,75 @@
+img {
+  margin-top: 2%;
+  padding-top: 20px;
+  position: relative;
+  border-radius: 70%;
+  height: 210px;
+  width: 210px;
+  padding: 0px;
+  z-index: 9999;
+  border: 15px solid rgba(28, 141, 207, 0.342);
+
+  /* transition-timing-function: cubic-bezier(0, 0, 0.56, 0.91);
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: cubic-bezier(0, 0, 0.56, 0.91);
+  transition-delay: 0s;
+  vertical-align: middle; */
+/* хотел анимировать без подглядок....не вішло))) */
+}
+div.head {
+  position: relative;
+  background-color: rgba(25, 91, 153, 0.5);
+  border-radius: 10px;
+  z-index: 0;
+  width: auto;
+  display: block;
+  left: 0;
+  top: 0;
+  right: 0px;
+  text-align: center;  
+}
+div.head-body {
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.157);
+}
+p.noshadow {
+  color: aliceblue;
+  font-size: 33px;
+}
+span {
+  float:right;
+}
+/* p.noshadow {
+  color: rgb(253, 253, 253);
+  font-size: 32px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding-right: 1px;
+
+} */
+/* p.shadow {
+  
+  top: 15px;
+  left: 12px;
+  color: transparent;
+  font-size: 27px;
+  text-shadow: 0px 0px 10px rgb(56, 54, 54);
+} */
+
+div.text {
+  text-align: right;
+  font-size: medium;
+  position: relative;
+  margin-right: 10px;
+  color: black;
+  margin-top: 40px;
+}
+
+
+
+
+
